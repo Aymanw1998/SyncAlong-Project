@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans,sans-serif;
+}
+
+:root {
+  --bg-color: #171941;
+  --main-bg-color: #e5e5ea;
+  --primary-color: #8c3db9 ;
+  --secondary-color: #9c27b0 ;
+  --tertiary-color: #d1c926;
+  --text-color: #4d4d4d;
+  --info: #ddd;
+
+  
+  --mobile-width: 90%;
+}
+
+.body {
+  position: absolute;
+  width: 100%;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.43;
+  background-image: url(../img/dots.png);
+  background-position: 50% 8%;
+  background-size: contain;
+  overflow: hidden;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;    
+  }
+  .MuiTab-root {
+    font-size: 12px;    
+  }
+}
